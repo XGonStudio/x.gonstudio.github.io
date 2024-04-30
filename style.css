@@ -1,0 +1,21 @@
+.STYLE_body_parameters{
+    display: flex;
+    flex-direction: column;
+    background-color: #8544cc;
+}
+.STYLE_body_background{
+
+}
+.STYLE_header{
+    font: 30px "Times New Roman";
+    color: white;
+    text-decoration: underline 2px;
+    text-align: center;
+}
+.STYLE_grid_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+    justify-items: center;
+}
