@@ -4,7 +4,10 @@
     background-color: #8544cc;
 }
 .STYLE_body_background{
-
+    background-image: url("BG_picture.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
 }
 .STYLE_header{
     font: 30px "Times New Roman";
