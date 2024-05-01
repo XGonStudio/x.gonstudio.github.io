@@ -1,24 +1,50 @@
-.STYLE_body_parameters{
-    display: flex;
-    flex-direction: column;
-    background-color: #8544cc;
+.STYLE_body{
+    text-align: left;
+    background-color: #9dc2c5;
+    background-image: url("BG_picture_bottom.png"), url("BG_picture_top.png");
+    background-position: 100% 100%, 0 0;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 315px, 339px;
+    background-attachment: fixed, fixed;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: block;
 }
-.STYLE_body_background{
-    background-image: url("BG_picture.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
+.alt_body{
+    background-color: #b2ef84;
 }
-.STYLE_header{
-    font: 30px "Times New Roman";
-    color: white;
-    text-decoration: underline 2px;
+.STYLE_heading{
+    color: black;
     text-align: center;
+    outline: 3px #333;
+    font-family: "Times New Roman";
+    text-decoration: underline;
 }
-.STYLE_grid_container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    align-items: center;
-    justify-items: center;
+.STYLE_list{
+    color: black;
+    margin-left: 370px;
+    margin-right: 375px;
+    font-family: "Times New Roman";
+    font-size: 20px;
+    list-style-type: square;
+}
+.STYLE_bg_change_button{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #ff0004;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-radius: 8px;
+    margin-top: 40px;
+    margin-left: 800px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: inline-block;
+    position: absolute;
+}
+.STYLE_logo_img{
+    margin-left: 800px;
+    margin-bottom: -70px;
 }
